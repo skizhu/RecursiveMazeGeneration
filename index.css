@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    color: #f8f8f2;
+    background-color: #333;
+}
+
+div {
+
+    display: block;
+    height: 28px;
+    width: auto;
+    margin: 0;
+
+}
+
+#cntWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#cnt {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+b {
+
+    display: inline-block;
+
+    width: 28px;
+
+    height: 28px;
+    background: none;
+
+}
+
+b[w] {
+
+    background: white;
+
+}
+
+b[ls] {
+
+    background: green;
+
+    border-bottom: 1px solid red;
+
+}
+
+b[lw] {
+
+    background: green;
+
+    border-left: 1px solid red;
+
+}
+
+b[ln] {
+
+    background: green;
+
+    border-top: 1px solid red;
+
+}
+
+b[le] {
+
+    background: green;
+
+    border-right: 1px solid red;
+
+}
+
+b[fs] {
+
+    background: orange;
+
+    border-bottom: 1px solid red;
+
+}
+
+b[fw] {
+
+    background: orange;
+
+    border-left: 1px solid red;
+
+}
+
+b[fn] {
+
+    background: orange;
+
+    border-top: 1px solid red;
+
+}
+
+b[fe] {
+
+    background: orange;
+
+    border-right: 1px solid red;
+
+}
+
+b[b] {
+
+    background: gray;
+
+}
+
+b[g] {
+
+    background: red;
+
+}
+
+b[d] {
+
+    background: blue;
+
+}
+
+.aboutSection {
+    margin-bottom: 10px;
+}
+
+#mazeInstruction {
+    font-size: 2em;
+}
+
+#redSpan {
+    color: red;
+}
